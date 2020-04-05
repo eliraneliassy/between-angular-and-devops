@@ -1,0 +1,9 @@
+version: '3'
+services:
+  ng-on-docker:
+    image: ng-on-docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
